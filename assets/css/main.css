@@ -149,6 +149,7 @@ input, select, textarea {
 		font-size: 2em;
 		line-height: 1.5em;
 		letter-spacing: -0.025em;
+		font-weight: bold;
 	}
 
 	h3 {
@@ -2585,7 +2586,7 @@ input, select, textarea {
 		ul li {
 			padding-left: 0.5em;
 		}
-
+			
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
@@ -3417,12 +3418,15 @@ input, select, textarea {
 						height: inherit;
 						line-height: inherit;
 						outline: 0;
+						font-weight: bold;
 					}
 
 						#header nav ul li a.button, #header nav ul li span.button {
 							height: 2em;
 							line-height: 2em;
 							padding: 0 1.25em;
+							border-radius: 3rem;
+							
 						}
 
 						#header nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
